@@ -145,7 +145,7 @@ public class FoodMenu {
 					JOptionPane.showMessageDialog(null, "You not ordered anything yet");
 				} else {
 					try {
-						OrderMenu order = new OrderMenu();
+						ordermenu order = new ordermenu();
 						order.main(header);
 						order.setVisible(true);
 						setVisible(false);

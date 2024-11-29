@@ -34,14 +34,14 @@ public class ordermenu {
 	private JTextField textField_1;
 	private JTextArea textArea;
 
-	/**
+	/*
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					ordermenu window = new OrderMenu();
+					ordermenu window = new ordermenu();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -55,7 +55,7 @@ public class ordermenu {
 	 * 
 	 * @throws IOException
 	 */
-	public OrderMenu() throws IOException {
+	public ordermenu() throws IOException {
 		createAndShowGUI();
 	}
 
